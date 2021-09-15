@@ -25,11 +25,26 @@
   z-index: 100px;
   padding: 5px;
 }
-@media screen and (max-width: 1023px) {
+@media screen and (min-width: 0px) and (max-width: 1023px) {
+  .header-container {
+    left: 0;
+    width: 100vw;
+  }
   .home {
     flex-wrap: wrap;
   }
   .home__row {
     flex-wrap: wrap;
+  }
+}
+@media screen and (min-width: 0px) and (max-width: 320px) {
+  .header-container {
+    width: 100vw;
+    overflow-x: hidden;
+  }
+}
+@media screen and (min-width: 426px) and (max-width: 768px) {
+  .toastStyle {
+    left: 250px;
   }
 }

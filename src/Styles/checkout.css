@@ -21,3 +21,19 @@
   position: fixed;
   top: 0;
 }
+@media screen and (min-width: 426px) and (max-width: 768px) {
+  .checkout__ad {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 425px) {
+  .checkout {
+    flex-direction: column;
+  }
+  .checkout__ad {
+    width: 100%;
+  }
+  .checkout-toaststyle {
+    top: 0;
+  }
+}

@@ -31,11 +31,14 @@
   .search-icon {
     top: 30px;
   }
-  .basket-icon-count {
-    position: relative;
-    top: -10px;
-  }
   .header-name {
     width: 100px;
+  }
+}
+@media screen and (min-width: 426px) and (max-width: 768px) {
+  .basket-icon-count {
+    position: relative;
+    left: -20px;
+    top: 5px;
   }
 }

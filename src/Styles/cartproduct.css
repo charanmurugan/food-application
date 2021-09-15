@@ -36,3 +36,18 @@
   z-index: 100px;
   padding: 5px;
 }
+@media screen and (min-width: 426px) and (max-width: 768px) {
+  .checkout-toaststyle {
+    left: 250px;
+  }
+}
+@media screen and (max-width: 425px) {
+  .checkoutProduct__info > button {
+    width: 185px;
+    position: relative;
+    left: -10px;
+  }
+  .checkout-toaststyle {
+    left: 10px;
+  }
+}
