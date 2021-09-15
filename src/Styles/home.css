@@ -1,0 +1,35 @@
+.header-container {
+  position: absolute;
+  width: 80.5vw;
+  top: 0;
+  left: 250px;
+}
+.home {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1500px;
+  background-color: #eaeded;
+}
+.home__row {
+  display: flex;
+  z-index: 1;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+.toastStyle {
+  top: 50px;
+  left: 645px;
+  z-index: 100px;
+  padding: 5px;
+}
+@media screen and (max-width: 1023px) {
+  .home {
+    flex-wrap: wrap;
+  }
+  .home__row {
+    flex-wrap: wrap;
+  }
+}
